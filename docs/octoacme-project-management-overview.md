@@ -16,9 +16,17 @@ Applies to all cross-functional projects that deliver product features, services
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Tech Lead / Engineering Lead: provides technical direction and architectural decisions.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
+- QA/Testing Engineers: validate quality and acceptance criteria.
+- UX/UI Designers: design user experiences and deliver specifications for development.
+- Business Analysts: elicit and document requirements; bridge business and technical teams.
+- Release Manager: coordinates and owns the end-to-end release process.
+- DevOps Engineers: maintain CI/CD pipelines, infrastructure, and deployment automation.
 - Stakeholders: provide inputs and approvals.
+
+For detailed role descriptions, responsibilities, and interaction guidance, see [Roles & Personas](./octoacme-roles-and-personas.md).
+For a RACI-lite view of ownership across artifacts and ceremonies, see [Roles & Personas Interaction Matrix](./octoacme-roles-and-personas-interaction-matrix.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -44,3 +52,4 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Use the [Project Kickoff Checklist](./octoacme-project-kickoff-checklist.md) at the start of every project to ensure all roles are engaged and key artifacts are in place.
